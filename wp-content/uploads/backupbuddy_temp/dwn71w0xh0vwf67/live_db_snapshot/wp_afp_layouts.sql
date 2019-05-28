@@ -1,0 +1,10 @@
+CREATE TABLE `wp_afp_layouts` (  `id` int(11) NOT NULL AUTO_INCREMENT,  `name` varchar(255) NOT NULL,  `file_template` varchar(255) NOT NULL,  `file_css` varchar(255) NOT NULL,  `custom` int(11) NOT NULL,  PRIMARY KEY (`id`)) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+/*!40000 ALTER TABLE `wp_afp_layouts` DISABLE KEYS */;
+INSERT INTO `wp_afp_layouts` VALUES('1', 'Basic / Left Justified Horizontal Labels', 'basic-left-justified-horizontal-labels.tpl', 'basic-left-justified-horizontal-labels.css.php', '0');
+INSERT INTO `wp_afp_layouts` VALUES('2', 'Basic / Vertical Labels', 'basic-vertical-labels.tpl', 'basic-vertical-labels.css.php', '0');
+INSERT INTO `wp_afp_layouts` VALUES('3', 'Basic / In-Field Labels', 'basic-in-field-labels.tpl', 'basic-in-field-labels.css.php', '0');
+INSERT INTO `wp_afp_layouts` VALUES('4', 'Bootstrap / Left Justified Horizontal Labels', 'bootstrap-left-justified-horizontal-labels.tpl', 'bootstrap-left-justified-horizontal-labels.css.php', '0');
+INSERT INTO `wp_afp_layouts` VALUES('5', 'Bootstrap / Vertical Labels', 'bootstrap-vertical-labels.tpl', 'bootstrap-vertical-labels.css.php', '0');
+INSERT INTO `wp_afp_layouts` VALUES('6', 'Bootstrap / In-Field Labels', 'bootstrap-in-field-labels.tpl', 'bootstrap-in-field-labels.css.php', '0');
+INSERT INTO `wp_afp_layouts` VALUES('7', 'd4wLayout', 'd4wLayout.54bf7a3a7cb37.tpl', 'd4wLayout.54bf7a3a7cb37.css.php', '1');
+/*!40000 ALTER TABLE `wp_afp_layouts` ENABLE KEYS */;

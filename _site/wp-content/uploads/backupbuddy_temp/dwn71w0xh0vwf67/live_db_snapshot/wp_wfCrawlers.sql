@@ -1,0 +1,45 @@
+CREATE TABLE `wp_wfCrawlers` (  `IP` binary(16) NOT NULL DEFAULT '\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0',  `patternSig` binary(16) NOT NULL,  `status` char(8) NOT NULL,  `lastUpdate` int(10) unsigned NOT NULL,  `PTR` varchar(255) DEFAULT '',  PRIMARY KEY (`IP`,`patternSig`)) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40000 ALTER TABLE `wp_wfCrawlers` DISABLE KEYS */;
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùOƒ', '‹üÀ•>b0«oQ1Œö', 'verified', '1557463068', 'crawl-66-249-79-131.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùO¡', '‹üÀ•>b0«oQ1Œö', 'verified', '1557507096', 'crawl-66-249-79-161.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBù@c', '‹üÀ•>b0«oQ1Œö', 'verified', '1557358116', 'crawl-66-249-64-99.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBù@f', '‹üÀ•>b0«oQ1Œö', 'verified', '1557358117', 'crawl-66-249-64-102.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBù@z', '‹üÀ•>b0«oQ1Œö', 'verified', '1557348356', 'crawl-66-249-64-122.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBù@[', '‹üÀ•>b0«oQ1Œö', 'verified', '1557357465', 'crawl-66-249-64-91.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBù@_', '‹üÀ•>b0«oQ1Œö', 'verified', '1557357467', 'crawl-66-249-64-95.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBù@Œ', '‹üÀ•>b0«oQ1Œö', 'verified', '1557357467', 'crawl-66-249-64-140.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùOğ', '‹üÀ•>b0«oQ1Œö', 'verified', '1557766541', 'crawl-66-249-79-240.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùOı', '‹üÀ•>b0«oQ1Œö', 'verified', '1557765104', 'crawl-66-249-79-253.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùOù', '‹üÀ•>b0«oQ1Œö', 'verified', '1557765102', 'crawl-66-249-79-249.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùOv', '‹üÀ•>b0«oQ1Œö', 'verified', '1557763248', 'crawl-66-249-79-118.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùO', '‹üÀ•>b0«oQ1Œö', 'verified', '1557757232', 'crawl-66-249-79-14.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùO…', '‹üÀ•>b0«oQ1Œö', 'verified', '1557741979', 'crawl-66-249-79-133.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùO', '‹üÀ•>b0«oQ1Œö', 'verified', '1557741977', 'crawl-66-249-79-129.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBù@q', '‹üÀ•>b0«oQ1Œö', 'verified', '1557434190', 'crawl-66-249-64-113.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùO', '‹üÀ•>b0«oQ1Œö', 'verified', '1557734921', 'crawl-66-249-79-27.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBù@Ò', '‹üÀ•>b0«oQ1Œö', 'verified', '1557367135', 'crawl-66-249-64-210.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùF', '‹üÀ•>b0«oQ1Œö', 'verified', '1557392537', 'crawl-66-249-70-29.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùO', '‹üÀ•>b0«oQ1Œö', 'verified', '1557612736', 'crawl-66-249-79-12.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùO', '‹üÀ•>b0«oQ1Œö', 'verified', '1557734919', 'crawl-66-249-79-29.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBù@|', '‹üÀ•>b0«oQ1Œö', 'verified', '1557348354', 'crawl-66-249-64-124.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùEé', '‹üÀ•>b0«oQ1Œö', 'verified', '1557307128', 'crawl-66-249-69-233.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùEë', '‹üÀ•>b0«oQ1Œö', 'verified', '1557307129', 'crawl-66-249-69-235.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBù@®', '‹üÀ•>b0«oQ1Œö', 'verified', '1557345923', 'crawl-66-249-64-174.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùO†', '‹üÀ•>b0«oQ1Œö', 'verified', '1557516119', 'crawl-66-249-79-134.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùOˆ', '‹üÀ•>b0«oQ1Œö', 'verified', '1557516117', 'crawl-66-249-79-136.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùO¤', '‹üÀ•>b0«oQ1Œö', 'verified', '1557507098', 'crawl-66-249-79-164.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùO§', '‹üÀ•>b0«oQ1Œö', 'verified', '1557727048', 'crawl-66-249-79-167.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBù@s', '‹üÀ•>b0«oQ1Œö', 'verified', '1557434188', 'crawl-66-249-64-115.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBù@ª', '‹üÀ•>b0«oQ1Œö', 'verified', '1557371974', 'crawl-66-249-64-170.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBù@Ö', '‹üÀ•>b0«oQ1Œö', 'verified', '1557367137', 'crawl-66-249-64-214.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBù@Æ', '‹üÀ•>b0«oQ1Œö', 'verified', '1557368324', 'crawl-66-249-64-198.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBù@¬', '‹üÀ•>b0«oQ1Œö', 'verified', '1557370155', 'crawl-66-249-64-172.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùOÙ', '‹üÀ•>b0«oQ1Œö', 'verified', '1557739773', 'crawl-66-249-79-217.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùOÛ', '‹üÀ•>b0«oQ1Œö', 'verified', '1557739770', 'crawl-66-249-79-219.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùOc', '‹üÀ•>b0«oQ1Œö', 'verified', '1557548388', 'crawl-66-249-79-99.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùO', '‹üÀ•>b0«oQ1Œö', 'verified', '1557728857', 'crawl-66-249-79-6.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùOŸ', '‹üÀ•>b0«oQ1Œö', 'verified', '1557517922', 'crawl-66-249-79-159.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùO', '‹üÀ•>b0«oQ1Œö', 'verified', '1557519120', 'crawl-66-249-79-8.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùOf', '‹üÀ•>b0«oQ1Œö', 'verified', '1557548386', 'crawl-66-249-79-102.googlebot.com');
+INSERT INTO `wp_wfCrawlers` VALUES('\0\0\0\0\0\0\0\0\0\0ÿÿBùO\n', '‹üÀ•>b0«oQ1Œö', 'verified', '1557685989', 'crawl-66-249-79-10.googlebot.com');
+/*!40000 ALTER TABLE `wp_wfCrawlers` ENABLE KEYS */;

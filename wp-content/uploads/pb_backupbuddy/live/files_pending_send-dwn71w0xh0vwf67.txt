@@ -1,0 +1,5 @@
+/wp-content/wflogs/.htaccess (0 send tries)
+/wp-content/wflogs/config.php (0 send tries)
+/wp-content/wflogs/ips.php (0 send tries)
+/wp-content/wflogs/config-livewaf.php (0 send tries)
+/wp-content/wflogs/config-synced.php (0 send tries)

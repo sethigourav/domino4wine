@@ -1,0 +1,6 @@
+wp_afp_config_groups (1 send tries)
+wp_afp_config_names (1 send tries)
+wp_afp_config_values (1 send tries)
+wp_afp_data (1 send tries)
+wp_afp_data_fields (1 send tries)
+wp_afp_fields (1 send tries)
